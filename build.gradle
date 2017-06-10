@@ -1,5 +1,5 @@
 group 'com.mingidea'
-version '0.1'
+version '0.1.1'
 
 apply plugin: 'groovy'
 apply plugin: 'java'
@@ -29,5 +29,7 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 
     compile 'com.bertramlabs.plugins:asset-pipeline-core:2.12.9'
+    compile 'org.slf4j:slf4j-api:1.7.25'
+
 }
 
